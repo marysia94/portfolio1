@@ -1,0 +1,14 @@
+* {
+  background-color: aliceblue;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#about-me {
+  justify-content: center;
+}

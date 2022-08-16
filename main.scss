@@ -1,0 +1,18 @@
+$primarycolor: aliceblue;
+$secondarycolor: #ADD8E6;
+$font-family: 'Playfair Display', serif;
+
+* {
+    background-color: $primarycolor;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#about-me {
+    justify-content: center;
+}
